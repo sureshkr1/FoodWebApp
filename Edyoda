@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"></script>
+    <script type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script>
+
+    <meta charset="UTF-8" />
+    <title>Favorite Food</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsVmsv8QcnHPoiFnQy6P5WOLziwIpGfe2RQ&usqp=CAU" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+        }
+        
+        .btn {
+            background-color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+        
+        .main-btn {
+            display: inline-block;
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 10px;
+            align-items: center;
+        }
+        
+        .main-btn:hover {
+            background-color: rgb(87, 150, 231);
+        }
+        
+        h1 {
+            background-color: #3a96e2;
+        }
+        
+        .food-list {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(7, 7, 7);
+            font-size: 20px;
+        }
+        
+        .images {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .food-img {
+            width: 600px;
+            height: 500px;
+            border-radius: 15px;
+            filter: drop-shadow(25px 10px 4px #d1cfcf);
+        }
+        
+        p {
+            font-size: 30px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-bar">
+        <nav class="btn">
+            <div class="main-btn">Index</div>
+            <div class="main-btn">Food</div>
+            <div class="main-btn">About</div>
+        </nav>
+    </header>
+    <div>
+        <h1 style="color: white;">Top 5 Favorite Foods</h1>
+        <ul>
+            <li><a class="food-list" href="#Fried Rice ">Fried Rice </a></li>
+            <li><a class="food-list" href="#Burger">Burger</a></li>
+            <li><a class="food-list" href="#Vegetable Paella">Vegetable Paella</a></li>
+            <li><a class="food-list" href="#pasta">Pasta</a></li>
+            <li><a class="food-list" href="#ice-cream">Ice Cream</a></li>
+        </ul>
+    </div>
+    <br />
+    <div class="images">
+        <div id="Fried Rice">
+            <img class="food-img" src="https://rolld.com.au/wp-content/uploads/2021/03/Uncles_Best_Fried_Rice_Pork_Shadow.png" alt="Fried Rice" />
+            <br />
+            <p><b><u>Fried Rice</u></b></p><br>
+            <br>
+        </div>
+        <div id="Burger">
+            <img class="food-img" src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4114.png" alt="Burger" /><br />
+            <p><b><u>Burger</u></b></p><br>
+            <br>
+        </div>
+        <div id="Vegetable Paella">
+            <img class="food-img" src="https://www.trevijano.com/wp-content/uploads/Paella-6V.png" alt="Vegetable Paella" /><br />
+            <p><b><u>Vegetable Paella</u></b></p><br>
+            <br>
+        </div>
+        <div id="pasta">
+            <img class="food-img" src="https://pngimg.com/uploads/pasta/pasta_PNG58.png" alt="pasta" /><br />
+            <p><b><u>Pasta</u></b></p><br>
+            <br>
+        </div>
+        <div id="ice-cream">
+            <img class="food-img" src="https://purepng.com/public/uploads/large/purepng.com-ice-creamice-creamcreamfrozensweet-1411527616051ymbwu.png" alt="Icecream" />
+            <br />
+            <p><b><u>Ice Cream</u></b></p><br>
+            <br>
+        </div>
+    </div>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+</body>
+
+</html>
